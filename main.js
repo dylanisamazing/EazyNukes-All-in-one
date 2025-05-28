@@ -3,7 +3,7 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
 });
 
-const TOKEN = 'TokenHere';
+const TOKEN = 'MTM3NzEzNTEwNTQ1MzE5NTI4NA.GszbvP.w9jg8OHJL9Tln2fJ5pGWbVrpHVqqGykTlTZohI';
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
